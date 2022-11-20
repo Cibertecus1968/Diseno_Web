@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario de taquerias</title>
+</head>
+<body>
+    <h2>MENU DE TAQUERIA</h2>
+    <h3>T a c o s el Maldito</h3>
+    <UL>
+        <li>bisteckc..........................................                           $15</li>
+        <li>suaderro..........................................                          $15</li>
+        <li>pAstor............................................                          $15</li>
+        <li>tripa.............................................                            $15</li>
+        <li>cachete...........................................                          $15</li>
+        <li>lengua............................................                          $15</li>
+
+        
+
+
+    </UL>
+    <dl>
+        <dt>la trebi</dt>
+        <dd>tortilla frita con salsa,rellena de pollo  $ 800.00</dd>
+        <dt>la herrara</dt>
+        <dd>pechuga pierna chamorro caldullo 4 700</dd>
+        <dt>la MENDEZ</dt>
+        <dd>pechuga pierna chamorro caldullo 4 700</dd>
+
+
+    </dl>
+    <H2>TU PEDIDO </H2>
+<form action = "" method = "">
+    NOMBRE <input type="text" placeholder="aqui tu nombre!!! "  id="name" name="name" required
+    minlength="4" maxlength="8" size="10"  required >
+    <br>
+    telefono <input type="tel" placeholder="55-5555555555"  id="xtel" name="name" required
+    minlength="4" maxlength="18" size="10"  required value="+52"> PARA LLEVAR
+
+    telefono <input type="email" placeholder="xxxxxx@xxxxxxxxxx"  id="xemal" name="name" required
+    minlength="14" maxlength="48" size="40"  required value="">
+    <p>para comer aCÁ O TRAGAR EN CASA?</p>
+    <BR>
+         <input type="radio"  name="llevar" value="llevar">llevar
+         <input type="radio"  name="llevar" value="LOCAL"> LOCALS   
+
+    <P>SI ESCOGES LLEVAR</P>
+    <textarea name="direccion" id="" cols="30" rows="10" placeholder="por toda tu direccion con alguna carACTESISTICA ,COLOR DEL PORTO ,TIENDAS CERCAS ,ETC"> </textarea>
+
+    <br>
+    ELIGE TUS TACOS
+
+
+    <br>
+    <select name="orden" id="">
+        <option value="bisteckc">bisteckc</option>
+        <option value="suadero">suadero</option>
+        <option value="pastor">pastor</option>
+        <option value="tripa">tripa </option>
+        <option value="tripa">tripa</option>
+        <option value="lengua">lengua</option>
+    </select>
+
+    <input type="number" min="1" max="20"> 
+    <br>
+
+
+    <select name="orden" id="">
+        <option value="bisteckc">bisteckc</option>
+        <option value="suadero">suadero</option>
+        <option value="pastor">pastor</option>
+        <option value="tripa">tripa </option>
+        <option value="tripa">tripa</option>
+        <option value="lengua">lengua</option>
+    </select>
+
+    <input type="number" min="1" max="20"> 
+    <br>
+
+    <select name="orden" id="">
+        <option value="bisteckc">bisteckc</option>
+        <option value="suadero">suadero</option>
+        <option value="pastor">pastor</option>
+        <option value="tripa">tripa </option>
+        <option value="tripa">tripa</option>
+        <option value="lengua">lengua</option>
+    </select>
+
+    <input type="number" min="1" max="20"> 
+
+
+
+
+
+
+    <p>salsa?</p>
+    <BR>
+         <input type="checkbox"  name="salsa" value="roja">roja
+         <input type="checkbox"  name="salsa" value="verde"> verde
+         <input type="checkbox"  name="salsa" value="borracha"> borracha
+
+
+    
+        
+
+
+
+
+         <br>
+         <br>
+   <input type="submit" value="enviiar" > 
+   <br>
+   <input type="reset" value="cancelar" > 
+
+   escoje un color <input type="color"= >
+   <br>
+   password <input type="password" >
+   <br>
+   seleciona archivo <input type="file">
+   <br>
+
+   para cuando la orden 
+   <input type="date" value="dd/mm/yy" min="18/11/2022" max="12/12/2023">
+
+   
+
+</form>
+    
+</body>
+</html>
