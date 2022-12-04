@@ -1,0 +1,12 @@
+body{
+    width: 100%;
+}
+div{
+    background-color: red;
+    width: 80%;
+    height: 70vh;
+    overflow: auto;
+}
+img{
+    width: 80%;
+}   
